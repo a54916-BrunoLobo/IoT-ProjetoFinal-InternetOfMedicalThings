@@ -30,7 +30,7 @@ Desenvolver um sistema de monitorização remota de pacientes, utilizando tecnol
 
 Sensores **DHT22** foram conectados a um **ESP32** para medir a temperatura de até quatro pacientes. As leituras são recolhidas e enviadas via **MQTT** em formato **JSON** para um tópico subscrito no **Node-RED**. Os dados são enriquecidos com informações simuladas — como ritmo cardíaco, pressão arterial e oximetria — e estruturados em objetos de paciente.
 
-Estes objetos são organizados num **array** que é:
+Estes objetos são organizados num **Array de Objetos** que é:
 
 - Enviado para o **InfluxDB** para armazenamento e análise;
 - Encriptado com **AES** e enviado por **MQTT** para os dashboards da aplicação do **Paciente** e do **Hospital**.
@@ -39,12 +39,12 @@ Estes objetos são organizados num **array** que é:
 
 ## 📁 Organização do Repositório
 
-- `ProjetoFinal(node-red).json`: Fluxo do Node-RED com lógica de receção, enriquecimento e envio dos dados.
+- `ProjetoFinal(node-red).json`: Flow do Node-RED.
 - `README.md`: Documento atual com as informações e estrutura do projeto.
-- `ProjFinalIoT.ino`: Código-fonte do ESP32 responsável pela recolha dos dados dos sensores.
-- `Wokwi_Link.txt`: Link de acesso à simulação do projeto na plataforma Wokwi.
-- `diagram.json`: Diagrama visual da montagem do circuito na simulação Wokwi.
-- `libraries.txt`: Lista das bibliotecas utilizadas no projeto.
-- `video_demonstrativo.txt` *(a adicionar)*: Link privado para a demonstração em vídeo do funcionamento do sistema.
+- `ProjFinalIoT.ino`: Código-fonte do ESP32 responsável pela recolha dos dados dos sensores de Temperatura.
+- `Wokwi_Link.txt`: Link de acesso à simulação do projeto Wokwi.
+- `diagram.json`: Ficheiro JSON do Diagrama Wokwi.
+- `libraries.txt`: Lista das bibliotecas Wokwi.
+- `video_demonstrativo.txt`: Link do vídeo Demonstrativo e funcionamento do Projeto.
 
 ---
