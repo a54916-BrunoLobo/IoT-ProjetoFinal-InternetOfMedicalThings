@@ -1,0 +1,1249 @@
+[
+    {
+        "id": "6f6da9012940f6c0",
+        "type": "tab",
+        "label": "Cadastro&SimularDados",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "68e4db9814fad0c5",
+        "type": "tab",
+        "label": "App Paciente",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "decb53f877023b09",
+        "type": "tab",
+        "label": "App Hospital",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "4",
+        "type": "influxdb",
+        "hostname": "localhost",
+        "port": "8086",
+        "protocol": "http",
+        "database": "meubanco",
+        "name": "Conexão InfluxDB",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "1.x"
+    },
+    {
+        "id": "7337feef73c19e06",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.emqx.io",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "5",
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "a8e17da68aae8b2c",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.emqx.io",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "5",
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "d98efced67f4e88d",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.mqtt-dashboard.com",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "5",
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "86b56c2fc2099d3c",
+        "type": "ui_tab",
+        "name": "Arduino",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "f95f4e53e6fcf498",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "d129a4b96e091985",
+        "type": "ui_group",
+        "name": "ESP32",
+        "tab": "86b56c2fc2099d3c",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "61a77cd75472b264",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.emqx.io",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "a6c5aaf3ca1a7b8f",
+        "type": "ui_tab",
+        "name": "ESP32",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "f99ca5109edc7fca",
+        "type": "ui_group",
+        "name": "LED",
+        "tab": "a6c5aaf3ca1a7b8f",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "91f68f1ec69eebbf",
+        "type": "ui_group",
+        "name": "Potenciometro",
+        "tab": "a6c5aaf3ca1a7b8f",
+        "order": 2,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "31abdf273bc826b2",
+        "type": "ui_tab",
+        "name": "Estações",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "3261ca02e941737d",
+        "type": "ui_group",
+        "name": "chart",
+        "tab": "31abdf273bc826b2",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b0e5efb3.82f5a8",
+        "type": "influxdb",
+        "hostname": "localhost",
+        "port": "8086",
+        "protocol": "http",
+        "database": "monitoramento_pacientes",
+        "name": "InfluxDB",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "2.0",
+        "url": "http://localhost:8086",
+        "timeout": "",
+        "rejectUnauthorized": false
+    },
+    {
+        "id": "f591b435c00a9387",
+        "type": "ui_tab",
+        "name": "Hospital",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "4b2b9bc33cebd2a4",
+        "type": "ui_group",
+        "name": "Paciente Monitorado",
+        "tab": "f591b435c00a9387",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false
+    },
+    {
+        "id": "influxdb_config",
+        "type": "influxdb",
+        "hostname": "localhost",
+        "port": "8086",
+        "protocol": "http",
+        "database": "monitoramento_pacientes",
+        "name": "InfluxDB",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "2.0",
+        "url": "http://localhost:8086",
+        "timeout": "",
+        "rejectUnauthorized": false
+    },
+    {
+        "id": "72ae65af9612cc2d",
+        "type": "ui_tab",
+        "name": "App Paciente",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "b044df679d1a35cf",
+        "type": "ui_group",
+        "name": "Dados Vitais:",
+        "tab": "72ae65af9612cc2d",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6ac5ef5ee893bccd",
+        "type": "ui_group",
+        "name": "Selecionar Paciente:",
+        "tab": "72ae65af9612cc2d",
+        "order": 2,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9e93f5f0265e99b1",
+        "type": "ui_tab",
+        "name": "App Hospital",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "029d5f711cad4833",
+        "type": "ui_group",
+        "name": "Alertas:",
+        "tab": "72ae65af9612cc2d",
+        "order": 3,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3703b423dc7a6d85",
+        "type": "ui_group",
+        "name": "Visão Geral",
+        "tab": "9e93f5f0265e99b1",
+        "order": 1,
+        "disp": false,
+        "width": "24",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "27e770fca9f5b8c9",
+        "type": "ui_group",
+        "name": "Cadastrar Paciente:",
+        "tab": "9e93f5f0265e99b1",
+        "order": 2,
+        "disp": true,
+        "width": "4",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "db549dafe8dc2fe6",
+        "type": "ui_form",
+        "z": "6f6da9012940f6c0",
+        "name": "",
+        "label": "",
+        "group": "27e770fca9f5b8c9",
+        "order": 0,
+        "width": "0",
+        "height": "0",
+        "options": [
+            {
+                "label": "Nome:",
+                "value": "nome",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Genero:",
+                "value": "genero",
+                "type": "text",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Idade:",
+                "value": "idade",
+                "type": "number",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Estado:",
+                "value": "estado",
+                "type": "text",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "nome": "",
+            "genero": "",
+            "idade": "",
+            "estado": ""
+        },
+        "payload": "",
+        "submit": "Cadastrar",
+        "cancel": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 250,
+        "y": 160,
+        "wires": [
+            [
+                "3eca326face44251"
+            ]
+        ]
+    },
+    {
+        "id": "5ca83d4668485c84",
+        "type": "comment",
+        "z": "6f6da9012940f6c0",
+        "name": "Formulario para Cadastrar pacientes",
+        "info": "",
+        "x": 380,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "3eca326face44251",
+        "type": "function",
+        "z": "6f6da9012940f6c0",
+        "name": "Cadastrar Paciente e guardar ",
+        "func": "let cadastros = global.get(\"cadastros\") || [];\n\nconst paciente_id = `${cadastros.length + 1}`;\n\nconst novoCadastro = {\n    pid: paciente_id,\n    nome: msg.payload.nome,\n    genero: msg.payload.genero,\n    idade: msg.payload.idade,\n    estado_vital: msg.payload.estado\n};\n\ncadastros.push(novoCadastro);\nglobal.set(\"cadastros\", cadastros);\n\nmsg.payload = cadastros;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f9cf1d1ebe1f66ef",
+        "type": "function",
+        "z": "6f6da9012940f6c0",
+        "name": "Simular dados Pacientes",
+        "func": "function gerarValorNormal(base, variacao) {\n    return parseFloat((base + Math.random() * variacao).toFixed(1));\n}\n\nfunction gerarValorComAlerta(normal, anormal) {\n    return Math.random() < 0.1 ? anormal() : normal();\n}\n\nconst cadastros = global.get(\"cadastros\") || [];\nconst temperaturas = msg.payload;\nconst pacientes = [];\n\nfor (let i = 0; i < cadastros.length; i++) {\n    const paciente = cadastros[i];\n    const key = `paciente${paciente.pid}`;\n    const temperatura = temperaturas[key];\n\n    const oximetria = gerarValorComAlerta(\n        () => Math.floor(95 + Math.random() * 4),\n        () => Math.floor(85 + Math.random() * 10)\n    );\n\n    const batimentos = gerarValorComAlerta(\n        () => Math.floor(60 + Math.random() * 41),\n        () => Math.random() > 0.5\n            ? Math.floor(40 + Math.random() * 20)\n            : Math.floor(101 + Math.random() * 70)\n    );\n\n    const pressao = gerarValorComAlerta(\n        () => Math.floor(110 + Math.random() * 21),\n        () => Math.random() > 0.5\n            ? Math.floor(70 + Math.random() * 20)\n            : Math.floor(141 + Math.random() * 40)\n    );\n\n    const fields = {\n        temperatura,\n        oximetria,\n        batimentos,\n        pressao,\n        idade: paciente.idade,\n        nome: paciente.nome\n    };\n    const tags = {\n            pid: paciente.pid,\n            genero: paciente.genero,\n            estado_vital: paciente.estado_vital,\n        };\n\n    pacientes.push([fields, tags]);\n\n}\nmsg.payload = pacientes;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 320,
+        "wires": [
+            [
+                "3621a31bb4c817a1",
+                "125f958173090419",
+                "cf309cb21bf38824"
+            ]
+        ]
+    },
+    {
+        "id": "3621a31bb4c817a1",
+        "type": "json",
+        "z": "6f6da9012940f6c0",
+        "name": "",
+        "property": "payload",
+        "action": "str",
+        "pretty": false,
+        "x": 850,
+        "y": 320,
+        "wires": [
+            [
+                "511876014f8b5987"
+            ]
+        ]
+    },
+    {
+        "id": "511876014f8b5987",
+        "type": "encrypt",
+        "z": "6f6da9012940f6c0",
+        "name": "Encriptar",
+        "algorithm": "AES",
+        "key": "1TR4C52O2I0BYB48",
+        "x": 1000,
+        "y": 320,
+        "wires": [
+            [
+                "6852a2c92b21b512"
+            ]
+        ]
+    },
+    {
+        "id": "6852a2c92b21b512",
+        "type": "mqtt out",
+        "z": "6f6da9012940f6c0",
+        "name": "Enviar para Dashboards",
+        "topic": "IoT/pacientes/dataArray",
+        "qos": "0",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "7337feef73c19e06",
+        "x": 910,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "7f38c8c87ea320b9",
+        "type": "comment",
+        "z": "6f6da9012940f6c0",
+        "name": "gerar dados associados aos pid's, enviar para influxDB",
+        "info": "",
+        "x": 420,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "2e0e7d2c5ae39500",
+        "type": "comment",
+        "z": "6f6da9012940f6c0",
+        "name": "transformar dados em json, encripta los e envia-los por MQTT",
+        "info": "",
+        "x": 920,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "a18e5e7a0f662078",
+        "type": "function",
+        "z": "6f6da9012940f6c0",
+        "name": "X",
+        "func": "global.set(\"cadastros\", []);\nflow.set(\"contador_pacientes\", 0);\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1010,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8fb48a0e505a68a0",
+        "type": "inject",
+        "z": "6f6da9012940f6c0",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 880,
+        "y": 160,
+        "wires": [
+            [
+                "a18e5e7a0f662078"
+            ]
+        ]
+    },
+    {
+        "id": "195584ef2fc34c63",
+        "type": "comment",
+        "z": "6f6da9012940f6c0",
+        "name": "Limpar Tabela",
+        "info": "",
+        "x": 930,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "36e73563c9de8b2e",
+        "type": "mqtt in",
+        "z": "6f6da9012940f6c0",
+        "name": "Receber temp do ESP32",
+        "topic": "IoT/pacientes/temperaturas",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "7337feef73c19e06",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 250,
+        "y": 320,
+        "wires": [
+            [
+                "f9cf1d1ebe1f66ef"
+            ]
+        ]
+    },
+    {
+        "id": "125f958173090419",
+        "type": "debug",
+        "z": "6f6da9012940f6c0",
+        "name": "debug 1",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 520,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "cf309cb21bf38824",
+        "type": "influxdb out",
+        "z": "6f6da9012940f6c0",
+        "influxdb": "b0e5efb3.82f5a8",
+        "name": "",
+        "measurement": "dados_vitais",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "IoT",
+        "bucket": "monitoramento_pacientes",
+        "x": 260,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "e31c5638e5e58de5",
+        "type": "ui_dropdown",
+        "z": "68e4db9814fad0c5",
+        "name": "Selecionar Paciente",
+        "label": "Selecionar:",
+        "tooltip": "",
+        "place": "Escolha o paciente:",
+        "group": "6ac5ef5ee893bccd",
+        "order": 1,
+        "width": "0",
+        "height": "0",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "msg.payload",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "",
+        "topicType": "str",
+        "className": "",
+        "x": 680,
+        "y": 100,
+        "wires": [
+            [
+                "1c7f696f75a23557"
+            ]
+        ]
+    },
+    {
+        "id": "1c7f696f75a23557",
+        "type": "function",
+        "z": "68e4db9814fad0c5",
+        "name": "Guardar paciente selecionado",
+        "func": "const idSelecionado = msg.payload.toString().split(\" \")[1];\nflow.set(\"pacienteSelecionado\", idSelecionado);\nreturn null;",
+        "outputs": 0,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 950,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "2c51373592c038fb",
+        "type": "mqtt in",
+        "z": "68e4db9814fad0c5",
+        "name": "Receber dados dos Pacientes",
+        "topic": "IoT/pacientes/dataArray",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "7337feef73c19e06",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 180,
+        "y": 280,
+        "wires": [
+            [
+                "e70877e339df6024"
+            ]
+        ]
+    },
+    {
+        "id": "e70877e339df6024",
+        "type": "decrypt",
+        "z": "68e4db9814fad0c5",
+        "name": "Desencriptar",
+        "algorithm": "AES",
+        "key": "1TR4C52O2I0BYB48",
+        "x": 390,
+        "y": 280,
+        "wires": [
+            [
+                "370a74b5ed6b55cd",
+                "0219b8bc7c2b3379"
+            ]
+        ]
+    },
+    {
+        "id": "370a74b5ed6b55cd",
+        "type": "json",
+        "z": "68e4db9814fad0c5",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 170,
+        "y": 340,
+        "wires": [
+            [
+                "fc3ddb7407802eea"
+            ]
+        ]
+    },
+    {
+        "id": "fc3ddb7407802eea",
+        "type": "function",
+        "z": "68e4db9814fad0c5",
+        "name": "Filtrar paciente",
+        "func": "let pacientes = msg.payload;\n\nconst idSelecionado = flow.get(\"pacienteSelecionado\");\n\nif (!idSelecionado || !Array.isArray(pacientes)) {\n    node.warn(\"ID selecionado ausente ou formato inválido\");\n    return null;\n}\n\nconst pacienteEncontrado = pacientes.find(p => p[1].pid === idSelecionado);\n\nif (!pacienteEncontrado) {\n    node.warn(\"Paciente não encontrado.\");\n    return null;\n}\n\nmsg.payload = pacienteEncontrado;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 340,
+        "wires": [
+            [
+                "9c90be374923d6b5",
+                "1676debaef091fe8",
+                "94f98edc0b59cd41",
+                "d43bdc62f35e13e8",
+                "854ff9f88723a548"
+            ]
+        ]
+    },
+    {
+        "id": "c698fea051644eb2",
+        "type": "ui_gauge",
+        "z": "68e4db9814fad0c5",
+        "name": "",
+        "group": "b044df679d1a35cf",
+        "order": 0,
+        "width": "6",
+        "height": "6",
+        "gtype": "gage",
+        "title": "Temperatura:",
+        "label": "",
+        "format": "{{value}} Cº",
+        "min": "35",
+        "max": "45",
+        "colors": [
+            "#b50000",
+            "#00e600",
+            "#ca3838"
+        ],
+        "seg1": "36",
+        "seg2": "38.5",
+        "diff": false,
+        "className": "",
+        "x": 850,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "9c90be374923d6b5",
+        "type": "function",
+        "z": "68e4db9814fad0c5",
+        "name": "Temperatura",
+        "func": "msg.payload = Number(msg.payload[0].temperatura.toFixed(1));\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 240,
+        "wires": [
+            [
+                "c698fea051644eb2"
+            ]
+        ]
+    },
+    {
+        "id": "1676debaef091fe8",
+        "type": "function",
+        "z": "68e4db9814fad0c5",
+        "name": "Ritmo Cardiaco",
+        "func": "msg.payload = msg.payload[0].batimentos;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 300,
+        "wires": [
+            [
+                "e93f40a3ad797b40"
+            ]
+        ]
+    },
+    {
+        "id": "e93f40a3ad797b40",
+        "type": "ui_gauge",
+        "z": "68e4db9814fad0c5",
+        "name": "",
+        "group": "b044df679d1a35cf",
+        "order": 0,
+        "width": "6",
+        "height": "6",
+        "gtype": "gage",
+        "title": "Ritmo Cardiaco:",
+        "label": "",
+        "format": "{{value}} BPM",
+        "min": "50",
+        "max": "160",
+        "colors": [
+            "#1bd700",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 860,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "4104451e650ee915",
+        "type": "ui_gauge",
+        "z": "68e4db9814fad0c5",
+        "name": "",
+        "group": "b044df679d1a35cf",
+        "order": 0,
+        "width": "6",
+        "height": "6",
+        "gtype": "gage",
+        "title": "Oximetria:",
+        "label": "",
+        "format": "{{value}} %",
+        "min": "80",
+        "max": "100",
+        "colors": [
+            "#b50000",
+            "#e6e600",
+            "#06e111"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 850,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "94f98edc0b59cd41",
+        "type": "function",
+        "z": "68e4db9814fad0c5",
+        "name": "Oximetria",
+        "func": "msg.payload = msg.payload[0].oximetria;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 360,
+        "wires": [
+            [
+                "4104451e650ee915"
+            ]
+        ]
+    },
+    {
+        "id": "d43bdc62f35e13e8",
+        "type": "function",
+        "z": "68e4db9814fad0c5",
+        "name": "Pressão Arterial",
+        "func": "msg.payload = msg.payload[0].pressao;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 420,
+        "wires": [
+            [
+                "0b17a9a55d486a01"
+            ]
+        ]
+    },
+    {
+        "id": "0b17a9a55d486a01",
+        "type": "ui_gauge",
+        "z": "68e4db9814fad0c5",
+        "name": "",
+        "group": "b044df679d1a35cf",
+        "order": 0,
+        "width": "6",
+        "height": "6",
+        "gtype": "gage",
+        "title": "Pressão Arterial:",
+        "label": "",
+        "format": "{{value}} mmHg",
+        "min": "80",
+        "max": "180",
+        "colors": [
+            "#b50000",
+            "#e6e600",
+            "#06e111"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 860,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "854ff9f88723a548",
+        "type": "function",
+        "z": "68e4db9814fad0c5",
+        "name": "Verificar Alertas",
+        "func": "const p = msg.payload;\nlet alertas = [];\n\nif (p[0].temperatura < 35.8 || p[0].temperatura > 37.7) {\n    alertas.push(\"Temperatura fora do normal\");\n}\n\nif (p[0].oximetria < 90) {\n    alertas.push(\"Oximetria baixa\");\n}\n\nif (p[0].batimentos < 55 || p[0].batimentos > 110) {\n    alertas.push(\"Batimentos anormais\");\n}\n\nif (p[0].pressao < 85 || p[0].pressao > 145) {\n    alertas.push(\"Pressão fora do ideal\");\n}\n\np[0].alerta = alertas.length > 0;\np[0].motivo_alerta = alertas;\n\nmsg.payload = p;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 540,
+        "wires": [
+            [
+                "1b4d5f970a4e58ad"
+            ]
+        ]
+    },
+    {
+        "id": "1b4d5f970a4e58ad",
+        "type": "ui_template",
+        "z": "68e4db9814fad0c5",
+        "group": "029d5f711cad4833",
+        "name": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "format": "<div ng-if=\"msg.payload[0].alerta\" style=\"background:red; color:white; padding:10px;\">\n  <b>⚠ Alerta!</b><br/>\n  {{ msg.payload[0].motivo_alerta.join(', ') }}\n</div>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 820,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "34afe2019d828321",
+        "type": "comment",
+        "z": "68e4db9814fad0c5",
+        "name": "Dropdown - variavel global do paciente escolhido",
+        "info": "",
+        "x": 660,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "64510db7979076f2",
+        "type": "comment",
+        "z": "68e4db9814fad0c5",
+        "name": "Receber dados, desencriptar, filtrar pelo paciente escolhido na variavel global, apresentar os 4 gauges",
+        "info": "",
+        "x": 470,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "98bcc0abdb42fd5e",
+        "type": "comment",
+        "z": "68e4db9814fad0c5",
+        "name": "verificar dados e tabela de alerta",
+        "info": "",
+        "x": 710,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "0219b8bc7c2b3379",
+        "type": "function",
+        "z": "68e4db9814fad0c5",
+        "name": "Dropdown Options",
+        "func": "const pacientesBrutos = JSON.parse(msg.payload);\nlet options = [];\n\nfor (let i = 0; i < pacientesBrutos.length; i++) {\n    const paciente = pacientesBrutos[i][0];\n    const tags = pacientesBrutos[i][1];\n\n    options.push(`Paciente ${tags.pid} - ${paciente.nome}`);\n}\n\nmsg.options = options;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 100,
+        "wires": [
+            [
+                "e31c5638e5e58de5"
+            ]
+        ]
+    },
+    {
+        "id": "064f2a01789dda51",
+        "type": "mqtt in",
+        "z": "decb53f877023b09",
+        "name": "Receber dados dos pacientes",
+        "topic": "IoT/pacientes/dataArray",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "7337feef73c19e06",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 360,
+        "y": 260,
+        "wires": [
+            [
+                "46eb038714a8f31d"
+            ]
+        ]
+    },
+    {
+        "id": "46eb038714a8f31d",
+        "type": "decrypt",
+        "z": "decb53f877023b09",
+        "name": "Desencriptar",
+        "algorithm": "AES",
+        "key": "1TR4C52O2I0BYB48",
+        "x": 570,
+        "y": 260,
+        "wires": [
+            [
+                "ede7e5fd98e55403"
+            ]
+        ]
+    },
+    {
+        "id": "ede7e5fd98e55403",
+        "type": "json",
+        "z": "decb53f877023b09",
+        "name": "json",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 710,
+        "y": 260,
+        "wires": [
+            [
+                "ba5f4354b4213591"
+            ]
+        ]
+    },
+    {
+        "id": "ba5f4354b4213591",
+        "type": "function",
+        "z": "decb53f877023b09",
+        "name": "Separar Pacientes",
+        "func": "const pacientesRaw = msg.payload;\nlet pacientes = [];\n\nfor (let i = 0; i < pacientesRaw.length; i++) {\n    const fields = pacientesRaw[i][0] || {};\n    const tags = pacientesRaw[i][1] || {};\n\n    pacientes.push({\n        id: tags.pid || '-',\n        nome: fields.nome || '-',\n        genero: tags.genero || '-',\n        estado_vital: tags.estado_vital || '-',\n        idade: fields.idade ?? '-',\n        temperatura: typeof fields.temperatura === 'number' ? Number(fields.temperatura.toFixed(1)) : '-',\n        oximetria: fields.oximetria ?? '-',\n        batimentos: fields.batimentos ?? '-',\n        pressao: fields.pressao ?? '-',\n        alerta: false,\n        motivo_alerta: []\n    });\n}\n\nmsg.payload = pacientes;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 340,
+        "wires": [
+            [
+                "6ed69713c4cc9fbc"
+            ]
+        ]
+    },
+    {
+        "id": "6ed69713c4cc9fbc",
+        "type": "ui_template",
+        "z": "decb53f877023b09",
+        "group": "3703b423dc7a6d85",
+        "name": "Tabela Pacientes",
+        "order": 1,
+        "width": "0",
+        "height": "0",
+        "format": "<style>\n  .tabela-pacientes {\n    max-height: 75vh;\n    overflow-y: auto;\n  }\n\n  table {\n    width: 100%;\n    border-collapse: collapse;\n    table-layout: fixed;\n  }\n\n  th,\n  td {\n    padding: 6px;\n    text-align: left;\n    word-wrap: break-word;\n    font-size: 14px;\n  }\n\n  th {\n    background-color: #f5f5f5;\n    font-weight: bold;\n  }\n\n  .titulo {\n    color: #00bfff;\n    font-weight: bold;\n    margin-bottom: 10px;\n    font-size: 18px;\n  }\n\n  .valor-anormal {\n    color: red;\n    font-weight: bold;\n  }\n</style>\n\n<div class=\"tabela-pacientes\">\n  <div class=\"titulo\">Visão Geral</div>\n  <table>\n    <thead>\n      <tr>\n        <th>ID</th>\n        <th>Nome</th>\n        <th>Gên.</th>\n        <th>Estado Vital</th>\n        <th>Idade</th>\n        <th>Temp (C)</th>\n        <th>Oxi (%)</th>\n        <th>Bat (bpm)</th>\n        <th>Pressão</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr ng-repeat=\"p in msg.payload track by $index\">\n        <td>{{p.id}}</td>\n        <td>{{p.nome}}</td>\n        <td>{{p.genero}}</td>\n        <td>{{p.estado_vital}}</td>\n        <td>{{p.idade}}</td>\n        <td ng-class=\"(p.temperatura < 35.8 || p.temperatura > 37.7) ? 'valor-anormal' : ''\">\n          {{p.temperatura | number:1}}\n        </td>\n        <td ng-class=\"p.oximetria < 90 ? 'valor-anormal' : ''\">\n          {{p.oximetria}}\n        </td>\n        <td ng-class=\"(p.batimentos < 55 || p.batimentos > 110) ? 'valor-anormal' : ''\">\n          {{p.batimentos}}\n        </td>\n        <td ng-class=\"(p.pressao < 85 || p.pressao > 145) ? 'valor-anormal' : ''\">\n          {{p.pressao}}\n        </td>\n      </tr>\n    </tbody>\n  </table>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 630,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fca633169718b5d4",
+        "type": "comment",
+        "z": "decb53f877023b09",
+        "name": "Receber dados Pacientes, apresentar Tabela",
+        "info": "",
+        "x": 410,
+        "y": 200,
+        "wires": []
+    }
+]
