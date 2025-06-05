@@ -1,15 +1,50 @@
 # **Projeto Final de Internet das Coisas: Internet of Medical Things**
-Projeto de grupo por Bruno Lobo (a54916) e André Oliveira (44613), alunos do IPB-ESTiG no Curso de Engenharia Informática no Ano Letivo 2024/2025.
 
+Projeto desenvolvido por **Bruno Lobo (a54916)** e **André Oliveira (44613)**, alunos do curso de **Engenharia Informática** do **IPB - ESTiG**, no ano letivo **2024/2025**.
 
-## Descrição:
-A pandemia de COVID-19 tem acelerado a necessidade da inclusão de tecnologias emergentes no setor de saúde, principalmente tecnologias relacionadas a Internet das Coisas (IdC), visando promover a conectividade e troca de informações em tempo real entre pacientes, profissionais da saúde e hospitais.
+---
 
-## Objetivo:
-Desenvolver um sistema que monitore pacientes de forma remota utilizando tecnologias IdC.
+## 🩺 Descrição
 
-### Tecnologias Utilizadas:
-Simulador Online de ESP32 (Wokwi), Node-Red, InfluxDB.
-### Solução Apresentada:
-Utilizamos sensores DHT22 conectados a um ESP32 para medir a temperatura de até quatro pacientes de forma analógica. As leituras são recolhidas e transmitidas via MQTT, em formato JSON, para um tópico ao qual o Node-RED está subscrito. Cada conjunto de dados é associado a um objeto paciente, que inclui também informações simuladas, como ritmo cardíaco, pressão arterial e oximetria. Esses objetos são organizados em um array e enviados simultaneamente para o banco de dados InfluxDB e para os dashboards das aplicações do Paciente e do Hospital. Antes do envio, os dados são encriptados com o algoritmo AES utilizando uma chave secreta.
+A pandemia de COVID-19 acelerou a necessidade da adoção de tecnologias emergentes no setor da saúde, especialmente soluções baseadas em **Internet das Coisas (IoT)**. Estas tecnologias visam melhorar a conectividade e a troca de informações em tempo real entre pacientes, profissionais de saúde e instituições hospitalares.
 
+---
+
+## 🎯 Objetivo
+
+Desenvolver um sistema de monitorização remota de pacientes, utilizando tecnologias de **Internet das Coisas (IoT)**, para recolher, processar e transmitir dados médicos de forma segura e eficiente.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- Simulador online **Wokwi** (ESP32)
+- **Node-RED**
+- **InfluxDB**
+- Protocolo **MQTT**
+- Algoritmo de encriptação **AES**
+
+---
+
+## 💡 Solução Apresentada
+
+Sensores **DHT22** foram conectados a um **ESP32** para medir a temperatura de até quatro pacientes. As leituras são recolhidas e enviadas via **MQTT** em formato **JSON** para um tópico subscrito no **Node-RED**. Os dados são enriquecidos com informações simuladas — como ritmo cardíaco, pressão arterial e oximetria — e estruturados em objetos de paciente.
+
+Estes objetos são organizados num **array** que é:
+
+- Enviado para o **InfluxDB** para armazenamento e análise;
+- Encriptado com **AES** e enviado por **MQTT** para os dashboards da aplicação do **Paciente** e do **Hospital**.
+
+---
+
+## 📁 Organização do Repositório
+
+- `ProjetoFinal(node-red).json`: Fluxo do Node-RED com lógica de receção, enriquecimento e envio dos dados.
+- `README.md`: Documento atual com as informações e estrutura do projeto.
+- `ProjFinalIoT.ino`: Código-fonte do ESP32 responsável pela recolha dos dados dos sensores.
+- `Wokwi_Link.txt`: Link de acesso à simulação do projeto na plataforma Wokwi.
+- `diagram.json`: Diagrama visual da montagem do circuito na simulação Wokwi.
+- `libraries.txt`: Lista das bibliotecas utilizadas no projeto.
+- `video_demonstrativo.txt` *(a adicionar)*: Link privado para a demonstração em vídeo do funcionamento do sistema.
+
+---
